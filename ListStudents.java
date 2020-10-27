@@ -70,29 +70,9 @@ public class ListStudents extends JPanel {
         add(area);
 
 
-//        table = new JTable();
-//        table.setFont(new Font("Calibri",Font.PLAIN,12));
-//        table.setRowHeight(30);
-//
-//
-//        scrollPane = new JScrollPane(table);
-//        scrollPane.setSize(300,200);
-//        scrollPane.setLocation(100,200);
-//        add(scrollPane);
+
     }
 
-//    public void generateTable(ArrayList<Student>students){
-//        Object data[][] = new Object[students.size()][information.length];
-//
-//        for (int i = 0;i < students.size();i++){
-//            Student current = students.get(i);
-//            data[i][0] = current.getName();
-//            data[i][1] = current.getSurname();
-//            data[i][2] = current.getAge();
-//        }
-//        DefaultTableModel model = new DefaultTableModel(data,information);
-//        table.setModel(model);
-//    }
     public static ArrayList<Student>student(){
          ArrayList<Student>students = new ArrayList<>();
         Student stud = new Student();

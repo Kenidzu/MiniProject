@@ -49,8 +49,6 @@ public class Main {
             PackageData data = null;
             if ((data = (PackageData) inputStream.readObject())!=null){
                 students = data.getStudents();
-//                ListStudents list = new ListStudents();
-//                list.generateTable(students);
             }
         }catch (Exception e){
             e.printStackTrace();
