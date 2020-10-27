@@ -42,10 +42,6 @@ public class MainMenu extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 parent.getMainMenupage().setVisible(false);
-                Student stud = new Student();
-                PackageData data = new PackageData("LIST_STUDENTS",studenttable,stud);
-
-                parent.getListStudentspage().generateTable(Main.student(data));
                 parent.getListStudentspage().showButtonsListStudent();
                 parent.getListStudentspage().setVisible(true);
             }

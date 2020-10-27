@@ -45,6 +45,7 @@ public class Main {
     public static ArrayList<Student> student (PackageData packageData){
         ArrayList<Student> students = new ArrayList<>();
         try {
+            outputStream.writeObject(packageData);
             PackageData data = null;
             if ((data = (PackageData) inputStream.readObject())!=null){
                 students = data.getStudents();

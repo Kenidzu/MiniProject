@@ -25,7 +25,6 @@ public class AddStudent extends JPanel {
         textFieldName.setVisible(true);
         textFieldsurname.setVisible(true);
         textFieldage.setVisible(true);
-        textFieldsurname.setVisible(true);
     }
 
     public AddStudent(MainFrame parent){
